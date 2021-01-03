@@ -1,0 +1,65 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button
+        type="button"
+        class="navbar-toggle"
+        data-toggle="collapse"
+        data-target="#myNavbar"
+      >
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <a class="navbar-brand" href="#">
+        <img
+          [src]="imgSrc"
+          (mouseover)="imgSrc = 'assets\\Images\\logoHover.png'"
+          (mouseout)="imgSrc = 'assets\\Images\\logo.png'"
+        />
+      </a>
+      <ul class="nav navbar-nav">
+        <li><a href="#">TOP OFFERS</a></li>
+        <li><a href="#">SUPPLEMENTS</a></li>
+        <li><a href="#">GEAR</a></li>
+        <li><a href="#">PROGRAMS</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <form class="form-inline">
+            <input
+              class="form-control mr-2"
+              type="search"
+              placeholder="Search for products..."
+              aria-label="Search"
+            />
+          </form>
+        </li>
+        <li class="dropdown">
+          <button
+            class="btn btn-warning dropdown-toggle"
+            type="button"
+            id="accountButton"
+            data-toggle="dropdown"
+          >
+            <i class="far fa-user"></i>
+          </button>
+
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#"
+                ><i class="fas fa-sign-in-alt"></i> &nbsp;&nbsp; Log in</a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-user-plus"></i> &nbsp; Sign up</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
