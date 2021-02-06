@@ -1,0 +1,12 @@
+{
+  "Category": [
+    {
+      "id": 1,
+      "Name": "Supplements"
+    },
+    {
+      "id": 2,
+      "Name": "Gear"
+    }
+  ]
+}

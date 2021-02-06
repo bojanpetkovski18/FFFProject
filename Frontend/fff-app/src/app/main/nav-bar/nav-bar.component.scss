@@ -1,5 +1,5 @@
 nav {
-  opacity: 0.95;
+  opacity: 0.995;
 }
 
 .navbar-header {
@@ -32,4 +32,86 @@ nav {
 
 .nav form input {
   width: 300px;
+}
+
+.navbar-nav li {
+  font-weight: 700;
+}
+
+.checkout-list {
+  list-style-type: none;
+  padding-top: 25px;
+
+  .checkout-list-item {
+    font-size: 12px;
+  }
+
+  a {
+    display: inline;
+    text-align: left;
+  }
+}
+
+.dropdownn-content {
+  width: 350px;
+
+  .hr {
+    border-bottom: 1px solid black;
+    max-width: 80%;
+    opacity: 0.6;
+    margin-bottom: -2px;
+  }
+}
+
+.dropbtn {
+  background-color: rgba(0, 0, 0, 0);
+  color: gray;
+  padding: 16px;
+  border: none;
+}
+
+.dropbtn:hover {
+  color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdownn {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdownn-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(36, 36, 36, 1);
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdownn-content a {
+  color: rgb(184, 184, 184);
+  text-decoration: none;
+}
+
+/* Change color of dropdown links on hover */
+.dropdownn-content a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdownn:hover .dropdownn-content {
+  display: block;
+}
+
+.mybutton {
+  transform: scale(0.75);
+  float: right;
+}
+
+.checkout-link {
+  text-align: center;
 }

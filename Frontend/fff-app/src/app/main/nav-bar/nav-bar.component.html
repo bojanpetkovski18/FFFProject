@@ -1,12 +1,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <button
-        type="button"
-        class="navbar-toggle"
-        data-toggle="collapse"
-        data-target="#myNavbar"
-      >
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -14,45 +9,42 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <a class="navbar-brand" routerLink="/">
-        <img
-          [src]="imgSrc"
-          (mouseover)="imgSrc = 'assets\\Images\\logoHover.png'"
-          (mouseout)="imgSrc = 'assets\\Images\\logo.png'"
-        />
+        <img [src]="imgSrc" (mouseover)="imgSrc = 'assets\\images\\logoHover.png'"
+          (mouseout)="imgSrc = 'assets\\images\\logo.png'" />
       </a>
       <ul class="nav navbar-nav">
-        <li [routerLinkActive]="['active-link']"><a routerLink="/" >TOP OFFERS</a></li>
-        <li [routerLinkActive]="['active-link']"><a routerLink="/" >SUPPLEMENTS</a></li>
-        <li [routerLinkActive]="['active-link']"><a routerLink="/" >GEAR</a></li>
-        <li [routerLinkActive]="['active-link']"><a routerLink="/" >PROGRAMS</a></li>
-        <li [routerLinkActive]="['active-link']"><a routerLink="/" >CONTACT</a></li>
+        <li [routerLinkActiveOptions]="{ exact: true }" [routerLinkActive]="['active-link']">
+          <a routerLink="/"><i class="fas fa-award"></i> TOP OFFERS</a>
+        </li>
+        <li [routerLinkActive]="['active-link']">
+          <a routerLink="/supplements"><i class="fas fa-prescription-bottle"></i> SUPPLEMENTS</a>
+        </li>
+        <li [routerLinkActive]="['active-link']">
+          <a routerLink="/gear"><i class="fas fa-dumbbell"></i> GEAR</a>
+        </li>
+        <li [routerLinkActive]="['active-link']">
+          <a routerLink="/programs"><i class="fab fa-youtube"></i> PROGRAMS</a>
+        </li>
+        <li [routerLinkActive]="['active-link']">
+          <a routerLink="/contact-us"><i class="fas fa-phone-square-alt"></i> CONTACT</a>
+        </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li>
-          <form class="form-inline">
-            <input
-              class="form-control mr-2"
-              type="search"
-              placeholder="Search for products..."
-              aria-label="Search"
-            />
-          </form>
+        <li class="dropdownn">
+          <button class="dropbtn">
+            <i class="glyphicon glyphicon-shopping-cart"></i> CART
+          </button>
+          <div class="dropdownn-content">
+            <app-cart></app-cart>
+          </div>
         </li>
         <li class="dropdown">
-          <button
-            class="btn btn-warning dropdown-toggle"
-            type="button"
-            id="accountButton"
-            data-toggle="dropdown"
-          >
+          <button class="btn btn-warning dropdown-toggle" type="button" id="accountButton" data-toggle="dropdown">
             <i class="far fa-user"></i>
           </button>
-
           <ul class="dropdown-menu">
             <li>
-              <a routerLink="/admin"
-                ><i class="fas fa-sign-in-alt"></i> &nbsp;&nbsp; Log in</a
-              >
+              <a routerLink="/admin"><i class="fas fa-sign-in-alt"></i> &nbsp;&nbsp; Log in</a>
             </li>
             <li>
               <a routerLink="/"><i class="fas fa-user-plus"></i> &nbsp; Sign up</a>

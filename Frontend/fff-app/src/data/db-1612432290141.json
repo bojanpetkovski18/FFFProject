@@ -1,0 +1,16 @@
+{
+  "Category": [
+    {
+      "Id": 1,
+      "Name": "Supplements"
+    },
+    {
+      "Id": 2,
+      "Name": "Gear"
+    },
+    {
+      "Id": 3,
+      "Name": "Programs"
+    }
+  ]
+}

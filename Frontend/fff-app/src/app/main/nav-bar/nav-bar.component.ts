@@ -11,7 +11,7 @@ export class NavBarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.imgSrc = "assets\\Images\\logo.png";
+    this.imgSrc = "assets\\images\\logo.png";
   }
 
 }

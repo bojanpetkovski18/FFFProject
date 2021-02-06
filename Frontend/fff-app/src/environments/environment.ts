@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: "https://fastfitfierceweb.azurewebsites.net/"
+  apiUrl: "https://fastfitfierceweb.azurewebsites.net/api/"
 };
 
 /*
