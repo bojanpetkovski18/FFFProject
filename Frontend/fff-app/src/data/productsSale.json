@@ -263,6 +263,102 @@
       "Quantity": 20,
       "Rating": 4,
       "Description": "Tasty Flavour."
+    },
+    {
+      "id": 23,
+      "Name": "Court Bold",
+      "Category": "Gear",
+      "Brand": "Adidas",
+      "Img": "https://www.sportvision.mk/files/thumbs/files/images/slike_proizvoda/thumbs_350/FX3490_350_350px.jpg",
+      "Price": 70,
+      "Discount": 10,
+      "Quantity": 5,
+      "Rating": 3,
+      "Description": "Woman's Shoes, available in black only."
+    },
+    {
+      "id": 24,
+      "Name": "Court Vision",
+      "Category": "Gear",
+      "Brand": "Nike",
+      "Img": "https://www.sportvision.mk/files/thumbs/files/images/slike_proizvoda/thumbs_350/CD5463-102_350_350px.jpg",
+      "Price": 75,
+      "Discount": 15,
+      "Quantity": 5,
+      "Rating": 4,
+      "Description": "Men's Shoes, Available."
+    },
+    {
+      "id": 25,
+      "Name": "MK1 Warmup Hoodie",
+      "Category": "Gear",
+      "Brand": "Underarmor",
+      "Img": "https://www.sportvision.mk/files/thumbs/files/images/slike_proizvoda/thumbs_350/1345259-001_350_350px.jpg",
+      "Price": 100,
+      "Discount": 10,
+      "Quantity": 5,
+      "Rating": 4,
+      "Description": "Men's hoodie, available in black only."
+    },
+    {
+      "id": 26,
+      "Name": "Predator 204=.4",
+      "Category": "Gear",
+      "Brand": "Adidas",
+      "Img": "https://www.sportvision.mk/files/thumbs/files/images/slike_proizvoda/thumbs_350/FW9205_350_350px.jpg",
+      "Price": 32.5,
+      "Discount": 5,
+      "Quantity": 4,
+      "Rating": 4,
+      "Description": "Men's football shoe."
+    },
+    {
+      "id": 27,
+      "Name": "JAN AIR SCHOOL BACKPACK",
+      "Category": "Gear",
+      "Brand": "Jordan",
+      "Img": "https://www.sportvision.mk/files/thumbs/files/images/slike_proizvoda/thumbs_350/8B0503-023_350_350px.jpg",
+      "Price": 45,
+      "Discount": 0,
+      "Quantity": 5,
+      "Rating": 5,
+      "Description": "JAN AIR SCHOOL BACKPACK"
+    },
+    {
+      "id": 28,
+      "Name": "Full Sport Outfit",
+      "Category": "Gear",
+      "Brand": "Nike",
+      "Img": "https://www.sportvision.mk/files/thumbs/files/images/slike_proizvoda/thumbs_350/CZ9231-010_350_350px.jpg",
+      "Price": 150,
+      "Discount": 15,
+      "Quantity": 2,
+      "Rating": 4,
+      "Description": "Full Sport Outfit"
+    },
+    {
+      "id": 29,
+      "Name": "Full White Sport Outfit",
+      "Category": "Gear",
+      "Brand": "Underarmor",
+      "Img": "https://www.sportvision.mk/files/thumbs/files/images/slike_proizvoda/thumbs_350/GJ5419_350_350px.jpg",
+      "Price": 140,
+      "Discount": 0,
+      "Quantity": 2,
+      "Rating": 4,
+      "Description": "Full White Sport Outfit"
+    },
+    {
+      "id": 30,
+      "Name": "Steroids",
+      "Category": "Supplements",
+      "Brand": "DEA",
+      "Img": "https://lh3.googleusercontent.com/proxy/G55g81hgb2kTXYyLOWunRRXZrfK3U_6WLSyWeQNV3LJ2aOK1X8IhvlE70l_lBKuH8gQNcHKlLCCl_53pZ9deJ1DupXQqv0hry6x0OfvBUJm1wHDpZuU9kl5Ia1oitb8yFAsQFVtIsctbd1iwdA",
+      "Price": 200,
+      "Discount": 0,
+      "Quantity": 1,
+      "Rating": 3,
+      "Description": "Steroids Testosterone"
     }
   ]
 }
