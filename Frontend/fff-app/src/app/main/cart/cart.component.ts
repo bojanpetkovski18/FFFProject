@@ -29,5 +29,6 @@ export class CartComponent implements OnInit {
 
   clearItems() {
     this.cartItems = [];
+    total = 0;
   }
 }
